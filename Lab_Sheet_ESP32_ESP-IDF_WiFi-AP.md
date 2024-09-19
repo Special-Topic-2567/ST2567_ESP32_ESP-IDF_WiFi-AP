@@ -124,5 +124,16 @@
 
 
 ### 8. ส่งงาน
+connect to wifi but not have internet
+![image](https://github.com/user-attachments/assets/ec898af3-b177-43ed-ac3b-671c105f22b6)
 
+
+ใส่password ถูก
+![image](https://github.com/user-attachments/assets/225ba8e6-42c8-43eb-a47d-2963b4ad9d65)
+
+ใส่password ในมือถือผิด
+![image](https://github.com/user-attachments/assets/66082f0d-9034-4dc3-81e2-1df045877ad3)
+
+link
+https://github.com/65030121natthamon/WiFi-AP.git
 โดยการ pull request พร้อมแนบ link ไปยัง Repository ของโปรเจคมาด้วย
