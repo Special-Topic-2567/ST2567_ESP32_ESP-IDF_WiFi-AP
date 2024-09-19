@@ -115,12 +115,31 @@
 [24] ssid ที่เห็นในรายการ access point list จะเปลี่ยนไป
 
 [25] ทดสอบใส่ password เดิม หรือในกรณีที่ยังไม่เปลี่ยน ให้ทดลองใส่ password ผิด สังเกตุและอธิบายสิ่งที่ได้
+>> ไม่สามารถเชื่อมต่อได้
+>> แสดงผลผ่าน monitor ดังนี้
+
+I (96853) wifi:removing station <0a:e1:c5:e9:49:61> after unsuccessful auth/assoc, AID = 0
+W (96853) wifi:rm mis
+I (96863) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<255,255>, prof:1      
 
 
 [26] ทดสอบใส่ password ที่ถูกต้อง  สังเกตุและอธิบายสิ่งที่ได้
+>> เชื่อมต่อได้
+>> แสดงผลผ่าน monitor ดังนี้
+
+I (180963) wifi softAP: station 0a:e1:c5:e9:49:61 join, AID=1
+I (181173) wifi:<ba-add>idx:2 (ifx:1, 0a:e1:c5:e9:49:61), tid:0, ssn:2, winSize:64
+I (182183) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2
 
 
 [27] ทดสอบตัดการเชื่อมต่อจาก wifi accesspoint ที่สร้างจาก ESP32 สังเกตุและอธิบายสิ่งที่ได้
+>> ออกจากเครือข่ายที่ login
+>> แสดงผลผ่าน monitor ดังนี้
+
+I (349863) wifi:station: 0a:e1:c5:e9:49:61 leave, AID = 1, bss_flags is 8424531, bss:0x3ffb8fcc
+I (349863) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<255,255>, prof:1
+I (349863) wifi:<ba-del>idx:2, tid:0
+I (349863) wifi softAP: station 0a:e1:c5:e9:49:61 leave, AID=1
 
 
 ### 8. ส่งงาน
