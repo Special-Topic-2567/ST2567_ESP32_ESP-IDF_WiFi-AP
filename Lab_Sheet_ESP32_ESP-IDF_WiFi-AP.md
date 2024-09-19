@@ -4,12 +4,12 @@
 
 1. สร้าง Espressif IDF project ใหม่  
 
-![alt text](image.png)
+![alt text](./Pictures/image.png)
 
 
   หลังจากใส่ชื่อ คลิก next เพื่อเลือก template project
 
-![alt text](image-2.png)
+![alt text](./Pictures/image-2.png)
 
 [1] ตั้งชื่อ  ESP32_ESP-IDF_WiFi-AP 
 
@@ -18,12 +18,12 @@
 [3] เลือกเทมเพลต 
 
 
-![alt text](image-3.png)
+![alt text](./Pictures/image-3.png)
 
 [4] เลือกตัวอย่างโปรเจค โดยการคลิกเลือก ESP-ISF 
 
 
-![alt text](image-4.png)
+![alt text](./Pictures/image-4.png)
 
 [5] ค้นหาเทมเพลต พิมพ์ `softAP`
 
@@ -34,7 +34,7 @@
 [8] ตอบ `Yes`
 
 
- ![alt text](image-5.png)
+ ![alt text](./Pictures/image-5.png)
 
 [9] ยืนยันว่าเลือกรุ่นของ idf เป็น V5.3  ขึ้นไป
 
@@ -42,7 +42,7 @@
 
 2.1 เปิดไฟล์ Kconfig.projbuild  ในโฟลเดอร์ main ด้วย text editor
 
-![alt text](image-6.png)
+![alt text](./Pictures/image-6.png)
 
 [11] เปิด Kconfig.projbuild
  
@@ -70,7 +70,7 @@
 
 ควรจะต้องเจอ `"SSID-..."` ในรายการ Wifi ที่เราสร้างขึ้น
 
-![alt text](image-7.png)
+![alt text](./Pictures/image-7.png)
 
 [14] จะปรากฏชื่อ ssid และ password ใน esp terminal และต้องมีชื่อเดียวกันในรายการ wifi ที่พร้อมรับการเชื่อมต่อ
 
@@ -88,12 +88,12 @@
 
 ### 7. ทดลองแก้ไข ssid และ  password
 
-![alt text](image-8.png)
+![alt text](./Pictures/image-8.png)
 
 [17] คลิกที่สัญลักษณ์รูปเฟือง เพื่อเรียก menuconfig
 
 
-![alt text](image-9.png)
+![alt text](./Pictures/image-9.png)
 
 [18] ในช่อง search ให้ใส่ข้อความ ssid
 
@@ -102,7 +102,7 @@
 [20] save 
 
 
-![alt text](image-10.png)
+![alt text](./Pictures/image-10.png)
 
 [21] ค้นหา password สำหรับ AP โดยพิใพ์ pass แล้วมองหา `Wifi password`
 
@@ -110,7 +110,7 @@
 
 [23] save 
 
-![alt text](image-11.png)
+![alt text](./Pictures/image-11.png)
 
 [24] ssid ที่เห็นในรายการ access point list จะเปลี่ยนไป
 
