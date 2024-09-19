@@ -65,10 +65,15 @@
 ถ้ามีที่ผิดเนื่องจาก MACSTR แสดงว่า idf รุ่นที่ใช้ไม่มี macro ดังกล่าวให้แก้ไขตามนี้ [แก้ไข error จาก MACSTR](./code_correction.md)
 
 ### 4. Run โปรเจค ดูผลจาก Terminal
+![image](https://github.com/user-attachments/assets/a7c1fa42-b02d-4b49-a696-73f989befc7e)
+
+
 
 ### 5. ใช้ Laptop หรือ Smartphone ค้นหา Accesspoint 
 
 ควรจะต้องเจอ `"SSID-..."` ในรายการ Wifi ที่เราสร้างขึ้น
+![image](https://github.com/user-attachments/assets/183baca0-6ae4-4b99-b0f5-3661af21de4b)
+
 
 ![alt text](./Pictures/image-7.png)
 
@@ -81,6 +86,11 @@
 [16] smartphone หรือ laptop จะได้ ipaddress  และอาจจะมีคำเตือนว่าไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้  (เนื่องจาก ESP ที่ใช้ไม่ได้ต่อกับ internet นั่นเอง) 
 
 ### 6. บันทึกผลการทดลอง 
+![image](https://github.com/user-attachments/assets/183baca0-6ae4-4b99-b0f5-3661af21de4b)
+![image](https://github.com/user-attachments/assets/2aeb7d6a-92d1-4b5b-8e67-6f8d5ced82a3)
+![image](https://github.com/user-attachments/assets/566d3190-1927-49dc-b11a-a7ea733dfd88)
+
+
 
 ทั้งที่หน้าจอ Laptop หรือ Smartphone และที่ terminal ของ ESP32
 
