@@ -65,10 +65,15 @@
 ถ้ามีที่ผิดเนื่องจาก MACSTR แสดงว่า idf รุ่นที่ใช้ไม่มี macro ดังกล่าวให้แก้ไขตามนี้ [แก้ไข error จาก MACSTR](./code_correction.md)
 
 ### 4. Run โปรเจค ดูผลจาก Terminal
+![image](https://github.com/user-attachments/assets/a7c1fa42-b02d-4b49-a696-73f989befc7e)
+
+
 
 ### 5. ใช้ Laptop หรือ Smartphone ค้นหา Accesspoint 
 
 ควรจะต้องเจอ `"SSID-..."` ในรายการ Wifi ที่เราสร้างขึ้น
+
+
 
 ![alt text](./Pictures/image-7.png)
 
@@ -81,6 +86,11 @@
 [16] smartphone หรือ laptop จะได้ ipaddress  และอาจจะมีคำเตือนว่าไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้  (เนื่องจาก ESP ที่ใช้ไม่ได้ต่อกับ internet นั่นเอง) 
 
 ### 6. บันทึกผลการทดลอง 
+![image](https://github.com/user-attachments/assets/a7c1fa42-b02d-4b49-a696-73f989befc7e)
+![image](https://github.com/user-attachments/assets/2aeb7d6a-92d1-4b5b-8e67-6f8d5ced82a3)
+![image](https://github.com/user-attachments/assets/566d3190-1927-49dc-b11a-a7ea733dfd88)
+
+
 
 ทั้งที่หน้าจอ Laptop หรือ Smartphone และที่ terminal ของ ESP32
 
@@ -124,5 +134,7 @@
 
 
 ### 8. ส่งงาน
+https://github.com/CreamCheese99/ST2567_ESP32_WiFi-AP.git
+![image](https://github.com/user-attachments/assets/41210405-50b3-4df9-8637-33096e4c609e)
 
 โดยการ pull request พร้อมแนบ link ไปยัง Repository ของโปรเจคมาด้วย
