@@ -134,6 +134,9 @@ connect to wifi but not have internet
 ใส่password ในมือถือผิด
 ![image](https://github.com/user-attachments/assets/66082f0d-9034-4dc3-81e2-1df045877ad3)
 
+เปลี่ยน password
+![image](https://github.com/user-attachments/assets/ba68588c-5f8c-4aa6-ab24-a2b040c3ea72)
+
 link
 https://github.com/65030121natthamon/WiFi-AP.git
 โดยการ pull request พร้อมแนบ link ไปยัง Repository ของโปรเจคมาด้วย
