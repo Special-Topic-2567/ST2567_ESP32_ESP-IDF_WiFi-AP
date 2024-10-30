@@ -86,6 +86,9 @@
 
 รวมทั้งหน้าจอ properties ของ wifi ดังตัวอย่าง
 
+## ![image](https://github.com/user-attachments/assets/5dafe663-e318-4549-b2ad-e3beac59bbb5)
+
+
 ### 7. ทดลองแก้ไข ssid และ  password
 
 ![alt text](./Pictures/image-8.png)
@@ -113,14 +116,19 @@
 ![alt text](./Pictures/image-11.png)
 
 [24] ssid ที่เห็นในรายการ access point list จะเปลี่ยนไป
+## ![image](https://github.com/user-attachments/assets/bf2e7175-376a-4158-93b2-49b12bd96c8a)
+## ในรายการจะเปลี่ยนเป็นรหัสที่เราได้ทำการเปลี่ยนไว้
 
 [25] ทดสอบใส่ password เดิม หรือในกรณีที่ยังไม่เปลี่ยน ให้ทดลองใส่ password ผิด สังเกตุและอธิบายสิ่งที่ได้
+## ![image](https://github.com/user-attachments/assets/234b9547-02ab-4ab4-b924-2a1d8f1e68cb)
 
 
 [26] ทดสอบใส่ password ที่ถูกต้อง  สังเกตุและอธิบายสิ่งที่ได้
+## ![image](https://github.com/user-attachments/assets/df75e867-446f-4773-9657-cc3098982234)
 
 
 [27] ทดสอบตัดการเชื่อมต่อจาก wifi accesspoint ที่สร้างจาก ESP32 สังเกตุและอธิบายสิ่งที่ได้
+## ![image](https://github.com/user-attachments/assets/02264daf-0424-4878-8eef-9f040ec5cc70)
 
 
 ### 8. ส่งงาน
