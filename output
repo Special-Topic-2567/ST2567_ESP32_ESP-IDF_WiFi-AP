@@ -1,0 +1,109 @@
+I (31) boot: ESP-IDF v5.3 2nd stage bootloader
+I (31) boot: compile time Sep 19 2024 14:38:24
+I (31) boot: Multicore bootloader
+I (35) boot: chip revision: v3.0
+I (39) boot.esp32: SPI Speed      : 40MHz
+I (44) boot.esp32: SPI Mode       : DIO
+I (48) boot.esp32: SPI Flash Size : 2MB
+I (53) boot: Enabling RNG early entropy source...
+I (58) boot: Partition Table:
+I (62) boot: ## Label            Usage          Type ST Offset   Length
+I (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (84) boot:  2 factory          factory app      00 00 00010000 00100000
+I (91) boot: End of partition table
+I (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=1f15ch (127324) map
+I (148) esp_image: segment 1: paddr=0002f184 vaddr=3ffb0000 size=00e94h (  3732) load
+I (149) esp_image: segment 2: paddr=00030020 vaddr=400d0020 size=82740h (534336) map
+I (337) esp_image: segment 3: paddr=000b2768 vaddr=3ffb0e94 size=02f84h ( 12164) load
+I (341) esp_image: segment 4: paddr=000b56f4 vaddr=40080000 size=171f0h ( 94704) load
+I (391) boot: Loaded app from partition at offset 0x10000
+I (391) boot: Disabling RNG early entropy source...
+I (403) cpu_start: Multicore app
+I (411) cpu_start: Pro cpu start user code
+I (412) cpu_start: cpu freq: 160000000 Hz
+I (412) app_init: Application information:
+I (414) app_init: Project name:     ESP32_ESP-IDF_WiFi-AP
+I (421) app_init: App version:      1
+I (425) app_init: Compile time:     Sep 19 2024 14:37:47
+I (431) app_init: ELF file SHA256:  6961e7506...
+I (436) app_init: ESP-IDF:          v5.3
+I (441) efuse_init: Min chip rev:     v0.0
+I (446) efuse_init: Max chip rev:     v3.99 
+I (450) efuse_init: Chip rev:         v3.0
+I (456) heap_init: Initializing. RAM available for dynamic allocation:
+I (463) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (469) heap_init: At 3FFB8040 len 00027FC0 (159 KiB): DRAM
+I (475) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (481) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (488) heap_init: At 400971F0 len 00008E10 (35 KiB): IRAM
+I (495) spi_flash: detected chip: generic
+I (498) spi_flash: flash io: dio
+W (502) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (516) main_task: Started on CPU0
+I (526) main_task: Calling app_main()
+I (546) wifi softAP: ESP_WIFI_MODE_AP
+I (566) wifi:wifi driver task: 3ffc00b8, prio:23, stack:6656, core=0
+I (576) wifi:wifi firmware version: 0caa81945
+I (576) wifi:wifi certification version: v7.0
+I (576) wifi:config NVS flash: enabled
+I (576) wifi:config nano formating: disabled
+I (586) wifi:Init data frame dynamic rx buffer num: 32
+I (586) wifi:Init static rx mgmt buffer num: 5
+I (596) wifi:Init management short buffer num: 32
+I (596) wifi:Init dynamic tx buffer num: 32
+I (606) wifi:Init static rx buffer size: 1600
+I (606) wifi:Init static rx buffer num: 10
+I (606) wifi:Init dynamic rx buffer num: 32
+I (616) wifi_init: rx ba win: 6
+I (616) wifi_init: accept mbox: 6
+I (616) wifi_init: tcpip mbox: 32
+I (626) wifi_init: udp mbox: 6
+I (626) wifi_init: tcp mbox: 6
+I (636) wifi_init: tcp tx win: 5760
+I (636) wifi_init: tcp rx win: 5760
+I (636) wifi_init: tcp mss: 1440
+I (646) wifi_init: WiFi IRAM OP enabled
+I (646) wifi_init: WiFi RX IRAM OP enabled
+I (656) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08
+W (726) phy_init: saving new calibration data because of checksum failure, mode(0)
+I (756) wifi:mode : softAP (94:b5:55:f6:f6:41)
+I (866) wifi:Total power save buffer number: 16
+I (866) wifi:Init max length of beacon: 752/752
+I (876) wifi:Init max length of beacon: 752/752
+I (876) wifi softAP: wifi_init_softap finished. SSID:Ban-Nonsung password:88888888 channel:1
+I (876) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1
+I (886) main_task: Returned from app_main()
+I (41616) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<255,255>, prof:1, snd_ch_cfg:0x0
+I (41616) wifi:station: 6e:57:38:7f:78:89 join, AID=1, bgn, 20
+I (41646) wifi softAP: station 6e:57:38:7f:78:89 join, AID=1
+I (43136) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2
+I (44916) wifi:<ba-add>idx:2 (ifx:1, 6e:57:38:7f:78:89), tid:0, ssn:2, winSize:64
+I (48766) wifi:<ba-add>idx:3 (ifx:1, 6e:57:38:7f:78:89), tid:1, ssn:0, winSize:64
+I (52786) wifi:<ba-add>idx:4 (ifx:1, 6e:57:38:7f:78:89), tid:5, ssn:0, winSize:64
+I (61846) wifi:WPA3 SAE 6e:57:38:7f:78:89 start reauthentication
+I (61846) wifi softAP: station 6e:57:38:7f:78:89 leave, AID=1, reason=2
+I (62986) wifi softAP: station 6e:57:38:7f:78:89 leave, AID=1, reason=2
+I (63006) wifi:<ba-del>idx:2, tid:0
+I (63006) wifi:<ba-del>idx:3, tid:1
+I (63006) wifi:<ba-del>idx:4, tid:5
+I (63006) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<255,255>, prof:1, snd_ch_cfg:0x0
+I (63016) wifi:station: 6e:57:38:7f:78:89 join, AID=1, bgn, 20
+I (63036) wifi softAP: station 6e:57:38:7f:78:89 join, AID=1
+I (63266) wifi:<ba-add>idx:2 (ifx:1, 6e:57:38:7f:78:89), tid:0, ssn:2, winSize:64
+I (63336) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2
+I (64036) wifi:<ba-add>idx:3 (ifx:1, 6e:57:38:7f:78:89), tid:1, ssn:0, winSize:64
+I (70946) wifi:<ba-add>idx:4 (ifx:1, 6e:57:38:7f:78:89), tid:5, ssn:0, winSize:64
+I (76846) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<255,255>, prof:1, snd_ch_cfg:0x0
+I (76846) wifi:station: 6a:b6:16:71:4f:da join, AID=2, bgn, 20
+I (76906) wifi softAP: station 6a:b6:16:71:4f:da join, AID=2
+I (78246) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.3
+I (98096) wifi:station: 6a:b6:16:71:4f:da leave, AID = 2, reason = 8, bss_flags is 8424531, bss:0x3ffc9cbc
+I (98106) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<255,255>, prof:1, snd_ch_cfg:0x0
+I (98106) wifi softAP: station 6a:b6:16:71:4f:da leave, AID=2, reason=8
+I (188846) wifi:station: 6e:57:38:7f:78:89 leave, AID = 1, reason = 8, bss_flags is 8424515, bss:0x3ffb93f4
+I (188846) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<255,255>, prof:1, snd_ch_cfg:0x0
+I (188856) wifi:<ba-del>idx:2, tid:0
+I (188856) wifi:<ba-del>idx:3, tid:1
+I (188856) wifi:<ba-del>idx:4, tid:5
+I (188866) wifi softAP: station 6e:57:38:7f:78:89 leave, AID=1, reason=8
