@@ -128,4 +128,7 @@
 
 ### 8. ส่งงาน
 
+<img width="1470" alt="ภาพถ่ายหน้าจอ 2567-10-31 เวลา 20 24 01" src="https://github.com/user-attachments/assets/e86cf3e5-8bac-4714-a92b-5a0ebd686deb">
+
+
 โดยการ pull request พร้อมแนบ link ไปยัง Repository ของโปรเจคมาด้วย
