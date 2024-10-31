@@ -86,6 +86,9 @@
 
 รวมทั้งหน้าจอ properties ของ wifi ดังตัวอย่าง
 
+<img width="1470" alt="ภาพถ่ายหน้าจอ 2567-10-31 เวลา 20 15 02" src="https://github.com/user-attachments/assets/c8cca284-4f67-4cec-8d39-7d1dbe6202d6">
+
+
 ### 7. ทดลองแก้ไข ssid และ  password
 
 ![alt text](./Pictures/image-8.png)
